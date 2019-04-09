@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMEntityWeb", "OMEntityWeb\OMEntityWeb.csproj", "{05B66CFB-2566-4683-B827-FB45AFD32FD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{BC0A0061-0445-49D4-9801-8A4F814B4549}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{1E4EAEC0-00F8-4132-A05A-BD5690776FE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05B66CFB-2566-4683-B827-FB45AFD32FD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B66CFB-2566-4683-B827-FB45AFD32FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B66CFB-2566-4683-B827-FB45AFD32FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B66CFB-2566-4683-B827-FB45AFD32FD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC0A0061-0445-49D4-9801-8A4F814B4549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0A0061-0445-49D4-9801-8A4F814B4549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0A0061-0445-49D4-9801-8A4F814B4549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0A0061-0445-49D4-9801-8A4F814B4549}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E4EAEC0-00F8-4132-A05A-BD5690776FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E4EAEC0-00F8-4132-A05A-BD5690776FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E4EAEC0-00F8-4132-A05A-BD5690776FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E4EAEC0-00F8-4132-A05A-BD5690776FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C86C1421-B0EE-4D57-8622-F1CC0C26A350}
+	EndGlobalSection
+EndGlobal

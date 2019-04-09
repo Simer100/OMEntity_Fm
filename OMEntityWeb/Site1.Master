@@ -1,0 +1,102 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="OMEntityWeb.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    
+     <!-- Animate.css -->
+    <link href="UIFiles/css/animate.css" rel="stylesheet" />
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="UIFiles/css/icomoon.css">
+    <!-- Themify Icons-->
+    <link rel="stylesheet" href="UIFiles/css/themify-icons.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="UIFiles/css/bootstrap.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="UIFiles/css/magnific-popup.css">
+    <!-- Owl Carousel  -->
+    <link rel="stylesheet" href="UIFiles/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="UIFiles/css/owl.theme.default.min.css">
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="UIFiles/css/flexslider.css">
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="UIFiles/css/style.css">
+
+    <!-- Modernizr JS -->
+    <script src="UIFiles/js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+    <script src="UIFiles/js/respond.min.js"></script>
+    <![endif]-->
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+     <title>Inner Page</title>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <nav class="ubea-nav" role="navigation">
+            <div class="ubea-container">
+                <div class="row">
+                    <div class="col-sm-4 col-xs-12">
+                        <div id="ubea-logo"><a href="../HomePage">Orgo Employee</a></div>
+                    </div>
+                    <div class="col-xs-8 text-right menu-1">
+                        <ul>
+                            <li><a href="../Employee/EmployeeDetails">Employee</a></li>
+                                <li><a href="../Department/DepDetails">Department</a></li>
+                                <li><a href="../State/StateDetails">State</a></li>
+                                <li><a href="../EmployeeAdd/EmpAddDetails">Office Address</a></li>
+                                <li><a href="../Enroll/EnrollDetails">Employee Enrollment</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+        <div style="margin-top:8%;margin-left:3%;margin-right:3%;margin-bottom:1%; min-height:440px;box-shadow: 0 1px 30px #999; background-color: #E6F1F9; padding:2%; ">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+         <footer id="ubea-footer" role="contentinfo">
+            <div class="ubea-container">
+
+                <div class="row copyright">
+                    <div class="col-md-12">
+                        <p class="pull-left">
+                            <small class="block">&copy; 2019. All Rights Reserved.</small>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </form>
+
+     <div class="gototop js-top">
+        <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+    </div>
+    <!-- jQuery -->
+    <script src="UIFiles/js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="UIFiles/js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="UIFiles/js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="UIFiles/js/jquery.waypoints.min.js"></script>
+    <!-- Carousel -->
+    <script src="UIFiles/js/owl.carousel.min.js"></script>
+    <!-- countTo -->
+    <script src="UIFiles/js/jquery.countTo.js"></script>
+    <!-- Flexslider -->
+    <script src="UIFiles/js/jquery.flexslider-min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="UIFiles/js/jquery.magnific-popup.min.js"></script>
+    <script src="UIFiles/js/magnific-popup-options.js"></script>
+    <!-- Main -->
+    <script src="UIFiles/js/main.js"></script>
+</body>
+</html>
